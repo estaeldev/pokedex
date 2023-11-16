@@ -29,6 +29,9 @@ export const Pokedex: FC = () => {
                         </IconButton>
                     </Toolbar>
                 </Container>
+                <Box position="relative" padding={1}>
+                    <Typography variant="body2" color="inherit">versão: 1.0.0</Typography>
+                </Box>
                 {isRefetching && (<LinearProgress color="secondary" />)}
             </AppBar>
 
